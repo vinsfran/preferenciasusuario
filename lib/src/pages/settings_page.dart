@@ -38,6 +38,8 @@ class _SettingsPageState extends State<SettingsPage> {
 
   @override
   Widget build(BuildContext context) {
+    prefs.ultimaPagina = SettingsPage.routeName;
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Ajustes'),

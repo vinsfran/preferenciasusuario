@@ -19,11 +19,11 @@ class MenuWidget extends StatelessWidget {
             )),
           ),
           ListTile(
-            leading: Icon(Icons.pages, color: Colors.blue),
-            title: Text('Home'),
-            onTap: () =>
-                Navigator.pushReplacementNamed(context, HomePage.routeName),
-          ),
+              leading: Icon(Icons.pages, color: Colors.blue),
+              title: Text('Home'),
+              onTap: () {
+                Navigator.pushReplacementNamed(context, HomePage.routeName);
+              }),
           ListTile(
             leading: Icon(Icons.party_mode, color: Colors.blue),
             title: Text('Party Mode'),
